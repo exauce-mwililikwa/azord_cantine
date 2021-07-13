@@ -1,0 +1,15 @@
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\bin\Debug\AZORD_CANTINE.exe.config
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\bin\Debug\AZORD_CANTINE.exe
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\bin\Debug\AZORD_CANTINE.pdb
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\bin\Debug\Guna.UI2.dll
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.csprojResolveAssemblyReference.cache
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.LOGIN.resources
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.Properties.Resources.resources
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.csproj.GenerateResource.Cache
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.exe
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.pdb
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.DASHBOARD.resources
+c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.exe.licenses
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.ADDIND_STUDENT.resources
+C:\Users\EXAUCE\Documents\Visual Studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.ABONNEMENT.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.PAIEMENT_ABONNEMENT.resources
