@@ -20,9 +20,15 @@ namespace AZORD_CANTINE
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            
-            new AZORD_CANTINE.USERCONTROL.DASHBOARD().Show();
+
+            AZORD_CANTINE.CONNECTBD.CLSGLOSSIERE.LOGIN(USERNAME, PASSWORD);
+            //new AZORD_CANTINE.USERCONTROL.DASHBOARD().Show();
           
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

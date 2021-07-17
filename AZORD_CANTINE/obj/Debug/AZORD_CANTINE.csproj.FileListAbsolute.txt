@@ -13,3 +13,10 @@ c:\users\exauce\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTIN
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.ADDIND_STUDENT.resources
 C:\Users\EXAUCE\Documents\Visual Studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.ABONNEMENT.resources
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.PAIEMENT_ABONNEMENT.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.SALLE.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.boxe.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.STOCK.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.ADDPRODUIT.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.TROMBINOSCOPE.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.CHGPWD.resources

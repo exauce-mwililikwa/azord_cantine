@@ -17,6 +17,11 @@ namespace AZORD_CANTINE.USERCONTROL
         {
             InitializeComponent();
         }
+        public DASHBOARD(String username)
+        {
+            InitializeComponent();
+            label2.Text =username;
+        }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -42,6 +47,16 @@ namespace AZORD_CANTINE.USERCONTROL
             A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.PAIEMENT_ABONNEMENT(), panel3);
             A.ButtonChanged(guna2Button1, guna2Button2, guna2Button3, guna2Button3);
            
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.SALLE(), panel3);
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.STOCK(), panel3);
         }
     }
 }
