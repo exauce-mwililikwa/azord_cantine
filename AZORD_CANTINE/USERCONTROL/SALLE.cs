@@ -29,7 +29,12 @@ namespace AZORD_CANTINE.USERCONTROL
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new AZORD_CANTINE.boxe().Show();
+            new AZORD_CANTINE.boxe().ShowDialog();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new AZORD_CANTINE.ABOUT_BOXES.NOUVELLE_SECTION().ShowDialog();
         }
     }
 }

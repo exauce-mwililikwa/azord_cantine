@@ -20,3 +20,4 @@ C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTIN
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.ADDPRODUIT.resources
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.TROMBINOSCOPE.resources
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.CHGPWD.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.NOUVELLE_SECTION.resources

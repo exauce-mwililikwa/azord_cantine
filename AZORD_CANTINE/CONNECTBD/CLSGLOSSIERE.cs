@@ -18,14 +18,25 @@ namespace AZORD_CANTINE.CONNECTBD
         public static SqlDataReader dr = null;
         public static DataSet ds = null;
 
-        public void CHARGEMENT_LABEL(Label CHARGING,String rqt,int column)
+        public void CHARGEMENT_LABEL(Label CHARGING,String rqt)
         {
             con.Open();
             cmd.CommandText = rqt;
             dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                CHARGING.Text = dr[column].ToString();
+                CHARGING.Text = dr[0].ToString();
+            }
+            con.Close();
+        }
+        public void CHARGEMENT_TEXTBOX(Guna2TextBox CHARGING, String rqt)
+        {
+            con.Open();
+            cmd.CommandText = rqt;
+            dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                CHARGING.Text = dr[0].ToString();
             }
             con.Close();
         }

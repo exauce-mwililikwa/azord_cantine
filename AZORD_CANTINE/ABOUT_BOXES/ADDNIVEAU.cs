@@ -11,9 +11,11 @@ namespace AZORD_CANTINE
 {
     partial class boxe : Form
     {
+        AZORD_CANTINE.CONNECTBD.CLSGLOSSIERE A = new AZORD_CANTINE.CONNECTBD.CLSGLOSSIERE();
         public boxe()
         {
             InitializeComponent();
+            A.CHARGEMENT_TEXTBOX(NIVEAU,AZORD_CANTINE.CONNECTBD.INTERPHACE.REQUETE.LIMITE_ANNE_AJOUTER);
           
         }
 
@@ -99,7 +101,12 @@ namespace AZORD_CANTINE
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-           
+            A.EXEC_UNIVERSELLE("AJOUTER_NIVEAAU",""+int.Parse(NIVEAU.Text),"NIVEAU AJOUTER");
+        }
+
+        private void boxe_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

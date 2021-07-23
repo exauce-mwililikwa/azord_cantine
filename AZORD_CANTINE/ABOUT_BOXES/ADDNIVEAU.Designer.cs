@@ -27,25 +27,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.spinEdit1 = new DevExpress.XtraEditors.SpinEdit();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).BeginInit();
+            this.NIVEAU = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
-            // 
-            // spinEdit1
-            // 
-            this.spinEdit1.EditValue = new decimal(new int[] {
-            0,
-            0,
-            0,
-            0});
-            this.spinEdit1.Location = new System.Drawing.Point(12, 33);
-            this.spinEdit1.Name = "spinEdit1";
-            this.spinEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.spinEdit1.Size = new System.Drawing.Size(157, 20);
-            this.spinEdit1.TabIndex = 0;
             // 
             // label1
             // 
@@ -64,7 +49,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(12, 63);
+            this.guna2Button1.Location = new System.Drawing.Point(12, 83);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(157, 45);
@@ -72,14 +57,37 @@
             this.guna2Button1.Text = "ENREGISTRER";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
+            // NIVEAU
+            // 
+            this.NIVEAU.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NIVEAU.DefaultText = "";
+            this.NIVEAU.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.NIVEAU.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.NIVEAU.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NIVEAU.DisabledState.Parent = this.NIVEAU;
+            this.NIVEAU.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NIVEAU.Enabled = false;
+            this.NIVEAU.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NIVEAU.FocusedState.Parent = this.NIVEAU;
+            this.NIVEAU.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NIVEAU.HoverState.Parent = this.NIVEAU;
+            this.NIVEAU.Location = new System.Drawing.Point(15, 28);
+            this.NIVEAU.Name = "NIVEAU";
+            this.NIVEAU.PasswordChar = '\0';
+            this.NIVEAU.PlaceholderText = "";
+            this.NIVEAU.SelectedText = "";
+            this.NIVEAU.ShadowDecoration.Parent = this.NIVEAU;
+            this.NIVEAU.Size = new System.Drawing.Size(151, 39);
+            this.NIVEAU.TabIndex = 3;
+            // 
             // boxe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(178, 114);
+            this.ClientSize = new System.Drawing.Size(178, 135);
+            this.Controls.Add(this.NIVEAU);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.spinEdit1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -89,7 +97,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NIVEAU";
-            ((System.ComponentModel.ISupportInitialize)(this.spinEdit1.Properties)).EndInit();
+            this.Load += new System.EventHandler(this.boxe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,9 +105,9 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.SpinEdit spinEdit1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2TextBox NIVEAU;
 
     }
 }

@@ -85,6 +85,12 @@
     <Compile Include="ABOUT_BOXES\CHGPWD.Designer.cs">
       <DependentUpon>CHGPWD.cs</DependentUpon>
     </Compile>
+    <Compile Include="ABOUT_BOXES\NOUVELLE_SECTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABOUT_BOXES\NOUVELLE_SECTION.Designer.cs">
+      <DependentUpon>NOUVELLE_SECTION.cs</DependentUpon>
+    </Compile>
     <Compile Include="ABOUT_BOXES\TROMBINOSCOPE.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,7 @@
       <DependentUpon>TROMBINOSCOPE.cs</DependentUpon>
     </Compile>
     <Compile Include="CONNECTBD\CLSGLOSSIERE.cs" />
+    <Compile Include="CONNECTBD\INTERPHACE\REQUETE.cs" />
     <Compile Include="CONNECTBD\MYCONNECTION.cs" />
     <Compile Include="DESIGN_CLASSES\DESIGN.cs" />
     <Compile Include="LOGIN.cs">
@@ -147,6 +154,9 @@
     <EmbeddedResource Include="ABOUT_BOXES\CHGPWD.resx">
       <DependentUpon>CHGPWD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ABOUT_BOXES\NOUVELLE_SECTION.resx">
+      <DependentUpon>NOUVELLE_SECTION.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ABOUT_BOXES\TROMBINOSCOPE.resx">
       <DependentUpon>TROMBINOSCOPE.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,9 +204,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CONNECTBD\INTERPHACE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
