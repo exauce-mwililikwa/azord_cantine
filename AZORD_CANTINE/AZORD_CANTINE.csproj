@@ -91,11 +91,11 @@
     <Compile Include="ABOUT_BOXES\NOUVELLE_SECTION.Designer.cs">
       <DependentUpon>NOUVELLE_SECTION.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABOUT_BOXES\TROMBINOSCOPE.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="ABOUT_BOXES\TROMBIN.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ABOUT_BOXES\TROMBINOSCOPE.Designer.cs">
-      <DependentUpon>TROMBINOSCOPE.cs</DependentUpon>
+    <Compile Include="ABOUT_BOXES\TROMBIN.Designer.cs">
+      <DependentUpon>TROMBIN.cs</DependentUpon>
     </Compile>
     <Compile Include="CONNECTBD\CLSGLOSSIERE.cs" />
     <Compile Include="CONNECTBD\INTERPHACE\REQUETE.cs" />
@@ -157,8 +157,8 @@
     <EmbeddedResource Include="ABOUT_BOXES\NOUVELLE_SECTION.resx">
       <DependentUpon>NOUVELLE_SECTION.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ABOUT_BOXES\TROMBINOSCOPE.resx">
-      <DependentUpon>TROMBINOSCOPE.cs</DependentUpon>
+    <EmbeddedResource Include="ABOUT_BOXES\TROMBIN.resx">
+      <DependentUpon>TROMBIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
@@ -172,6 +172,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="USERCONTROL\ABONNEMENT.resx">
       <DependentUpon>ABONNEMENT.cs</DependentUpon>
@@ -204,7 +205,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\avtar-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avtar-8.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

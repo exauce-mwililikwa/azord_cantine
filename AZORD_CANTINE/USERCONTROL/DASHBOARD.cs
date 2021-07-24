@@ -58,5 +58,10 @@ namespace AZORD_CANTINE.USERCONTROL
         {
             A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.STOCK(), panel3);
         }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            new AZORD_CANTINE.ABOUT_BOXES.TROMBIN().ShowDialog();
+        }
     }
 }

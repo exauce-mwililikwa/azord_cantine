@@ -18,6 +18,18 @@ namespace AZORD_CANTINE.CONNECTBD
         public static SqlDataReader dr = null;
         public static DataSet ds = null;
 
+        public static string imgLon = "";
+        public void CHOISIR_IMAGE(PictureBox picture)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Filter = "JPG Files(*.jpg)|*.jpg|GIF Files(*.gif)|*.gif|All Files(*.*)|*.*";
+            dlg.Title = "Selectionner une image";
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                imgLon = dlg.FileName.ToString();
+                picture.ImageLocation = imgLon;
+            }
+        }
         public void CHARGEMENT_LABEL(Label CHARGING,String rqt)
         {
             con.Open();
@@ -89,6 +101,27 @@ namespace AZORD_CANTINE.CONNECTBD
                 MessageBox.Show(""+ex);
             }
             con.Close();
+        }
+        public DataTable TABLEAU(String rqte)
+        {
+            try
+            {
+
+                con.Open();
+                cmd = new SqlCommand(rqte, con);
+                dt = null;
+                dt = new SqlDataAdapter(cmd);
+                ds = new DataSet();
+                Console.WriteLine(rqte);
+                dt.Fill(ds);
+                con.Close();
+
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("erreur de login " + ex);
+            }
+            return ds.Tables[0];
         }
     }
 }

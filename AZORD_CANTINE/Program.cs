@@ -16,7 +16,7 @@ namespace AZORD_CANTINE
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LOGIN());
+            Application.Run(new AZORD_CANTINE.USERCONTROL.DASHBOARD());
         }
     }
 }

@@ -73,6 +73,7 @@
             this.guna2Button6.Size = new System.Drawing.Size(163, 45);
             this.guna2Button6.TabIndex = 5;
             this.guna2Button6.Text = "TROMBINOSCOPE";
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button5
             // 
