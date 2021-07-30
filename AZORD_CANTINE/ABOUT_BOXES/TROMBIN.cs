@@ -131,6 +131,21 @@ namespace AZORD_CANTINE.ABOUT_BOXES
            
         }
 
+        private void TABLEELEVE_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MATRICULE.Text = TABLEELEVE.CurrentRow.Cells[0].Value.ToString();
+            NOM.Text = TABLEELEVE.CurrentRow.Cells[1].Value.ToString();
+            POSTNOM.Text = TABLEELEVE.CurrentRow.Cells[2].Value.ToString();
+            PRENOM.Text = TABLEELEVE.CurrentRow.Cells[3].Value.ToString();
+          A.GET_PHOTO("ELEVE", "'" + MATRICULE.Text + "'", pictureBox1);
+            
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            A.MODIFIERPHOTO(MATRICULE, "La photo de l'eleve '"+NOM.Text+"' a ete modifier avec succes");
+        }
+
        
     }
 }

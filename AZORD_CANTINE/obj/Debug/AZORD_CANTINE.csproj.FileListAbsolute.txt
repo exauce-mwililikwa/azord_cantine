@@ -21,3 +21,8 @@ C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTIN
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.CHGPWD.resources
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.NOUVELLE_SECTION.resources
 C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.TROMBIN.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.USERCONTROL.PAIEMENTFRAIS.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.AboutBox1.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.Form1.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.MODIFICATIONFRAIS.resources
+C:\Users\EXAUCE\documents\visual studio 2013\Projects\AZORD_CANTINE\AZORD_CANTINE\obj\Debug\AZORD_CANTINE.ABOUT_BOXES.NOUVEAUMOTIFPAIEMENT.resources

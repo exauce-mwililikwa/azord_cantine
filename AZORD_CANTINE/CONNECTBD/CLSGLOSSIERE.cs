@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,100 @@ namespace AZORD_CANTINE.CONNECTBD
                 picture.ImageLocation = imgLon;
             }
         }
+        public void MODIFIERPHOTO(Label MATRICULE,string MESSAGE)
+        {
+             
+                con.Open();
+                try {
+                    byte[] img = null;
+                   
+                    cmd.Parameters.Clear();
+                    FileStream fs = new FileStream(imgLon, FileMode.Open, FileAccess.Read);
+                    BinaryReader br = new BinaryReader(fs);
+                    img = br.ReadBytes((int)fs.Length);
+                    cmd.CommandText = ("EXEC UPDATEPHOTOELEVE '" + MATRICULE.Text + "',@IMAGE");
+                   cmd.Parameters.Add(new SqlParameter("@IMAGE", img));
+                    
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("" + MESSAGE, "OPERATION REUSSI", MessageBoxButtons.OK, MessageBoxIcon.None);
+                    img = null;
+                    imgLon = "";
+                    
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(""+ex);
+                }
+                con.Close();
+
+            }
+        public void GET_PHOTO(string table,  string reference, PictureBox picemp)
+        {
+            string test="";
+            string sexe = "";
+            con.Open();
+            try
+            {
+
+                cmd.CommandText = "select  IMAGE,sexe from " + table + " where MATRICULE=" + reference + "";
+   
+                dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                   test= dr[0].ToString();
+                   sexe = dr[1].ToString();
+                }
+                if(test=="")
+                {
+                    if(sexe=="F")
+                    {
+                        picemp.Image = global::AZORD_CANTINE.Properties.Resources.avtar_1;
+                    }
+                    else
+                    {
+                        picemp.Image = global::AZORD_CANTINE.Properties.Resources.avtar_3;
+                    }
+                
+                }
+                else
+                {
+                    con.Close();
+                    con.Open();
+                    try
+                    {
+
+                        cmd.CommandText = "select  IMAGE from " + table + " where MATRICULE=" + reference + "";
+                        dr = cmd.ExecuteReader();
+                        while (dr.Read())
+                        {
+                            byte[] img = (byte[])(dr[0]);
+                            if (img == null)
+                                picemp.Image = null;
+                            else
+                            {
+                                MemoryStream ms = new MemoryStream(img);
+                                picemp.Image = System.Drawing.Image.FromStream(ms);
+                            }
+
+                        }
+
+                        //  Console.WriteLine("select PHOTO from " + table + " where " + colonne_ref + "='" + reference + "'");
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("" + ex);
+                    }
+                }
+               
+
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("" + ex);
+            }
+            con.Close();
+        }
+        
         public void CHARGEMENT_LABEL(Label CHARGING,String rqt)
         {
             con.Open();

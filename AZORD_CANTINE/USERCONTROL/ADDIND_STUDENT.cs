@@ -98,7 +98,7 @@ namespace AZORD_CANTINE.USERCONTROL
                 {
                     SEXE = "F";
                 }
-                A.EXEC_UNIVERSELLE("AJOUTER_ELEVE", "'" + NOM.Text + "','" + POSTNOM.Text + "','" + PRENOM.Text + "','" + NOMMERE.Text + "','" + NOMMERE.Text + "','" + TELEPHONE.Text + "','" + ADRESSE.Text.ToString() + "'," + int.Parse(NIVEAU.SelectedItem.ToString()) + ",'" + SECTION.SelectedItem + "','" + DESIGNATION.SelectedItem + "','"+SEXE+"'", "ELEVE AJOUTER");
+                A.EXEC_UNIVERSELLE("AJOUTER_ELEVE", "'" + NOM.Text.ToUpper() + "','" + POSTNOM.Text + "','" + PRENOM.Text + "','" + NOMMERE.Text + "','" + NOMMERE.Text + "','" + TELEPHONE.Text + "','" + ADRESSE.Text.ToString() + "'," + int.Parse(NIVEAU.SelectedItem.ToString()) + ",'" + SECTION.SelectedItem + "','" + DESIGNATION.SelectedItem + "','"+SEXE+"'", "ELEVE AJOUTER");
                // NOMPERE.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
                 NOM.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
                 POSTNOM.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));

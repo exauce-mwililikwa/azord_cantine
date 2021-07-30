@@ -38,6 +38,15 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.MATRICULE = new System.Windows.Forms.Label();
+            this.NOM = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.PRENOM = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.POSTNOM = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TABLEELEVE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -159,6 +168,7 @@
             this.TABLEELEVE.Name = "TABLEELEVE";
             this.TABLEELEVE.Size = new System.Drawing.Size(458, 319);
             this.TABLEELEVE.TabIndex = 1;
+            this.TABLEELEVE.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TABLEELEVE_CellContentClick);
             // 
             // guna2TextBox1
             // 
@@ -186,7 +196,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AZORD_CANTINE.Properties.Resources.avtar_8;
-            this.pictureBox1.Location = new System.Drawing.Point(263, 158);
+            this.pictureBox1.Location = new System.Drawing.Point(296, 158);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 135);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -196,7 +206,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(276, 305);
+            this.linkLabel1.Location = new System.Drawing.Point(312, 305);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(89, 13);
             this.linkLabel1.TabIndex = 4;
@@ -204,12 +214,116 @@
             this.linkLabel1.Text = "Choisir une photo";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(38, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(92, 20);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "MATRICULE";
+            // 
+            // MATRICULE
+            // 
+            this.MATRICULE.AutoSize = true;
+            this.MATRICULE.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MATRICULE.Location = new System.Drawing.Point(154, 169);
+            this.MATRICULE.Name = "MATRICULE";
+            this.MATRICULE.Size = new System.Drawing.Size(53, 20);
+            this.MATRICULE.TabIndex = 6;
+            this.MATRICULE.Text = "label5";
+            // 
+            // NOM
+            // 
+            this.NOM.AutoSize = true;
+            this.NOM.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NOM.Location = new System.Drawing.Point(154, 214);
+            this.NOM.Name = "NOM";
+            this.NOM.Size = new System.Drawing.Size(53, 20);
+            this.NOM.TabIndex = 8;
+            this.NOM.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(75, 214);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 20);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "NOM";
+            // 
+            // PRENOM
+            // 
+            this.PRENOM.AutoSize = true;
+            this.PRENOM.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PRENOM.Location = new System.Drawing.Point(154, 305);
+            this.PRENOM.Name = "PRENOM";
+            this.PRENOM.Size = new System.Drawing.Size(53, 20);
+            this.PRENOM.TabIndex = 10;
+            this.PRENOM.Text = "label8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(53, 305);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(74, 20);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "PRENOM";
+            // 
+            // POSTNOM
+            // 
+            this.POSTNOM.AutoSize = true;
+            this.POSTNOM.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.POSTNOM.Location = new System.Drawing.Point(154, 262);
+            this.POSTNOM.Name = "POSTNOM";
+            this.POSTNOM.Size = new System.Drawing.Size(61, 20);
+            this.POSTNOM.TabIndex = 12;
+            this.POSTNOM.Text = "label10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(46, 262);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(82, 20);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "POSTNOM";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Location = new System.Drawing.Point(296, 337);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(120, 45);
+            this.guna2Button1.TabIndex = 13;
+            this.guna2Button1.Text = "SAUVEGARDER";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // TROMBIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(916, 587);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.POSTNOM);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.PRENOM);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.NOM);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.MATRICULE);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2TextBox1);
@@ -246,6 +360,15 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label MATRICULE;
+        private System.Windows.Forms.Label NOM;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label PRENOM;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label POSTNOM;
+        private System.Windows.Forms.Label label11;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
 
     }
 }

@@ -44,7 +44,7 @@ namespace AZORD_CANTINE.USERCONTROL
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.PAIEMENT_ABONNEMENT(), panel3);
+            A.APPEL_PANEL(new AZORD_CANTINE.USERCONTROL.PAIEMENTFRAIS(), panel3);
             A.ButtonChanged(guna2Button1, guna2Button2, guna2Button3, guna2Button3);
            
         }
