@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -37,9 +40,6 @@
             this.USERNAME = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,9 +57,36 @@
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Location = new System.Drawing.Point(0, 93);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(302, 371);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(3, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "label4";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(192, 34);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(3, 18);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(164, 20);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // linkLabel1
             // 
@@ -84,41 +111,47 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.BorderColor = System.Drawing.Color.Empty;
+            this.guna2Button1.FillColor = System.Drawing.Color.Empty;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(7, 265);
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(0, 0);
+            this.guna2Button1.Location = new System.Drawing.Point(0, 0);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(284, 45);
+            this.guna2Button1.PressedColor = System.Drawing.Color.Empty;
+            this.guna2Button1.PressedDepth = 0;
+            this.guna2Button1.Size = new System.Drawing.Size(0, 0);
             this.guna2Button1.TabIndex = 4;
-            this.guna2Button1.Text = "CONNEXION";
+            this.guna2Button1.Text = null;
+            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // PASSWORD
             // 
+            this.PASSWORD.BorderColor = System.Drawing.Color.Empty;
+            this.PASSWORD.BorderThickness = 0;
             this.PASSWORD.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.PASSWORD.DefaultText = "";
-            this.PASSWORD.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.PASSWORD.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.PASSWORD.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PASSWORD.DisabledState.Parent = this.PASSWORD;
-            this.PASSWORD.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PASSWORD.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PASSWORD.FocusedState.Parent = this.PASSWORD;
-            this.PASSWORD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PASSWORD.HoverState.Parent = this.PASSWORD;
+            this.PASSWORD.DefaultText = null;
+            this.PASSWORD.FillColor = System.Drawing.Color.Empty;
+            this.PASSWORD.ForeColor = System.Drawing.Color.Empty;
+            this.PASSWORD.HideSelection = false;
+            this.PASSWORD.IconLeftCursor = null;
+            this.PASSWORD.IconLeftSize = new System.Drawing.Size(0, 0);
+            this.PASSWORD.IconRightCursor = null;
+            this.PASSWORD.IconRightSize = new System.Drawing.Size(0, 0);
             this.PASSWORD.Location = new System.Drawing.Point(7, 188);
+            this.PASSWORD.MaxLength = 0;
             this.PASSWORD.Name = "PASSWORD";
             this.PASSWORD.PasswordChar = '\0';
-            this.PASSWORD.PlaceholderText = "";
-            this.PASSWORD.SelectedText = "";
-            this.PASSWORD.ShadowDecoration.Parent = this.PASSWORD;
+            this.PASSWORD.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PASSWORD.PlaceholderText = null;
+            this.PASSWORD.SelectedText = null;
+            this.PASSWORD.ShortcutsEnabled = false;
             this.PASSWORD.Size = new System.Drawing.Size(284, 36);
             this.PASSWORD.TabIndex = 3;
+            this.PASSWORD.WordWrap = false;
             // 
             // label3
             // 
@@ -131,25 +164,28 @@
             // 
             // USERNAME
             // 
+            this.USERNAME.BorderColor = System.Drawing.Color.Empty;
+            this.USERNAME.BorderThickness = 0;
             this.USERNAME.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.USERNAME.DefaultText = "";
-            this.USERNAME.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.USERNAME.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.USERNAME.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.USERNAME.DisabledState.Parent = this.USERNAME;
-            this.USERNAME.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.USERNAME.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.USERNAME.FocusedState.Parent = this.USERNAME;
-            this.USERNAME.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.USERNAME.HoverState.Parent = this.USERNAME;
+            this.USERNAME.DefaultText = null;
+            this.USERNAME.FillColor = System.Drawing.Color.Empty;
+            this.USERNAME.ForeColor = System.Drawing.Color.Empty;
+            this.USERNAME.HideSelection = false;
+            this.USERNAME.IconLeftCursor = null;
+            this.USERNAME.IconLeftSize = new System.Drawing.Size(0, 0);
+            this.USERNAME.IconRightCursor = null;
+            this.USERNAME.IconRightSize = new System.Drawing.Size(0, 0);
             this.USERNAME.Location = new System.Drawing.Point(3, 91);
+            this.USERNAME.MaxLength = 0;
             this.USERNAME.Name = "USERNAME";
             this.USERNAME.PasswordChar = '\0';
-            this.USERNAME.PlaceholderText = "";
-            this.USERNAME.SelectedText = "";
-            this.USERNAME.ShadowDecoration.Parent = this.USERNAME;
+            this.USERNAME.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.USERNAME.PlaceholderText = null;
+            this.USERNAME.SelectedText = null;
+            this.USERNAME.ShortcutsEnabled = false;
             this.USERNAME.Size = new System.Drawing.Size(288, 36);
             this.USERNAME.TabIndex = 1;
+            this.USERNAME.WordWrap = false;
             this.USERNAME.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // label2
@@ -171,39 +207,11 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "LOGIN";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(3, 18);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 20);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(192, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(3, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
-            // 
             // LOGIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 464);
+            this.ClientSize = new System.Drawing.Size(294, 464);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "LOGIN";

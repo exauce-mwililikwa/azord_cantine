@@ -108,5 +108,10 @@ namespace AZORD_CANTINE.USERCONTROL
                 NONABONNE.Text = "" + (int.Parse(TOTAL.Text) - int.Parse(ABONNE.Text));
             }
         }
+
+        private void ABONNEMENT_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

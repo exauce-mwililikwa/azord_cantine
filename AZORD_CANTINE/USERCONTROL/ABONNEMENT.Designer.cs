@@ -509,6 +509,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "ABONNEMENT";
             this.Size = new System.Drawing.Size(985, 802);
+            this.Load += new System.EventHandler(this.ABONNEMENT_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TABLEELEVE)).EndInit();

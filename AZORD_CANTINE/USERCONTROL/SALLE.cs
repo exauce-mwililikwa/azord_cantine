@@ -47,5 +47,10 @@ namespace AZORD_CANTINE.USERCONTROL
         {
             A.EXEC_UNIVERSELLE("NOUVEAU_SALLE", "'" + NIVEAU.SelectedItem.ToString() + "','" + SECTION.SelectedItem.ToString() + "','" + DESIGNATION.Text + "'", "SALLE AJOUTER");
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

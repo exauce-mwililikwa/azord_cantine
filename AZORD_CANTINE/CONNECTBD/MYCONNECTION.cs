@@ -9,6 +9,6 @@ namespace AZORD_CANTINE.CONNECTBD
 {
     class MYCONNECTION
     {
-        public static SqlConnection con=new SqlConnection("Data Source=EXAUCE\\SA;Initial Catalog=CATINE;User ID=sa;Password=aliconnorecho");
+        public static SqlConnection con=new SqlConnection("Data Source=EXAUCE\\SA;Initial Catalog=CANTINE;User ID=SA;Password=aliconnorecho");
     }
 }

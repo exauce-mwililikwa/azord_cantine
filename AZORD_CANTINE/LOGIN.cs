@@ -45,7 +45,7 @@ namespace AZORD_CANTINE
             Regex re = new Regex(strRegex);
          //le 1 upper 4 lower space char number   Regex regex = new Regex(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,15}$");
             Regex regex = new Regex(@"(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,15})$");
-            if (regex.IsMatch("" + textBox1.Text))
+            if (re.IsMatch("" + textBox1.Text))
                 label4.Text="";
             else
                 label4.Text = "email invalide";

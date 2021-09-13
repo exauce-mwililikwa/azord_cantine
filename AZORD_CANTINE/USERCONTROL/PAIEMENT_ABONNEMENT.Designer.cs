@@ -50,25 +50,25 @@
             this.label9 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -309,25 +309,65 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "STATISTIQUE";
             // 
-            // label10
+            // label18
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(685, 187);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 20);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "20/5/2020";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(256, 472);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(27, 20);
+            this.label18.TabIndex = 19;
+            this.label18.Text = "45";
             // 
-            // label11
+            // label19
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(599, 187);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 18);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "DATE";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(90, 474);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(135, 18);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "RESTER A PAYER";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(256, 418);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(27, 20);
+            this.label17.TabIndex = 17;
+            this.label17.Text = "45";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(126, 420);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(99, 18);
+            this.label16.TabIndex = 16;
+            this.label16.Text = "DEJA PAYER";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(256, 364);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 20);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "45 500 FC";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(134, 366);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(91, 18);
+            this.label14.TabIndex = 14;
+            this.label14.Text = "EN VALEUR";
             // 
             // label12
             // 
@@ -349,65 +389,25 @@
             this.label13.TabIndex = 12;
             this.label13.Text = "TOTAL ABONNE";
             // 
-            // label14
+            // label10
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(134, 366);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 18);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "EN VALEUR";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(685, 187);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(80, 20);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "20/5/2020";
             // 
-            // label15
+            // label11
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(256, 364);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(83, 20);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "45 500 FC";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(126, 420);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(99, 18);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "DEJA PAYER";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(256, 418);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(27, 20);
-            this.label17.TabIndex = 17;
-            this.label17.Text = "45";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(256, 472);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(27, 20);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "45";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(90, 474);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(135, 18);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "RESTER A PAYER";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(599, 187);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(47, 18);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "DATE";
             // 
             // guna2TextBox1
             // 
@@ -427,6 +427,7 @@
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.SelectionStart = 6;
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Size = new System.Drawing.Size(200, 36);
             this.guna2TextBox1.TabIndex = 12;
@@ -461,45 +462,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "PERSONNEL";
             // 
-            // label20
+            // label25
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(106, 32);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(147, 18);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "PAIEMENT ANNUEL";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(93, 71);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(160, 18);
-            this.label21.TabIndex = 21;
-            this.label21.Text = "PAIEMENT MENSUEL";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(97, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(156, 18);
-            this.label22.TabIndex = 22;
-            this.label22.Text = "PAIEMENT RESTANT";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(284, 29);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(83, 20);
-            this.label23.TabIndex = 20;
-            this.label23.Text = "45 500 FC";
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(284, 114);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(83, 20);
+            this.label25.TabIndex = 24;
+            this.label25.Text = "45 500 FC";
             // 
             // label24
             // 
@@ -511,15 +482,45 @@
             this.label24.TabIndex = 23;
             this.label24.Text = "45 500 FC";
             // 
-            // label25
+            // label23
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(284, 114);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(83, 20);
-            this.label25.TabIndex = 24;
-            this.label25.Text = "45 500 FC";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(284, 29);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(83, 20);
+            this.label23.TabIndex = 20;
+            this.label23.Text = "45 500 FC";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(97, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(156, 18);
+            this.label22.TabIndex = 22;
+            this.label22.Text = "PAIEMENT RESTANT";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(93, 71);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(160, 18);
+            this.label21.TabIndex = 21;
+            this.label21.Text = "PAIEMENT MENSUEL";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(106, 32);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(147, 18);
+            this.label20.TabIndex = 20;
+            this.label20.Text = "PAIEMENT ANNUEL";
             // 
             // PAIEMENT_ABONNEMENT
             // 
@@ -541,6 +542,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "PAIEMENT_ABONNEMENT";
             this.Size = new System.Drawing.Size(985, 802);
+            this.Load += new System.EventHandler(this.PAIEMENT_ABONNEMENT_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

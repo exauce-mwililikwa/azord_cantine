@@ -31,5 +31,10 @@ namespace AZORD_CANTINE.USERCONTROL
         {
 
         }
+
+        private void PAIEMENT_ABONNEMENT_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
